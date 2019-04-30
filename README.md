@@ -10,7 +10,8 @@ bundle install
 bundle update
 bundle install
 bundle update github-pages
-bundle exec jekyll serve --host 0.0.0.0
+bundle exec jekyll serve
+# bundle exec jekyll serve --host 0.0.0.0
 git remote add origin git@github.com:Lance0404/jekyll_blog.git
 git push -u origin master
 ```
